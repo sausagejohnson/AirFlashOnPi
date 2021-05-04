@@ -1,0 +1,3 @@
+KERNEL=="sd*", ACTION=="add",	SUBSYSTEM=="block", MODE="755", OWNER="nobody",	RUN+="/usr/bin/mount /mnt/%k"
+KERNEL=="sd*", ACTION=="remove", SUBSYSTEM=="block",	RUN+="/bin/umount /mnt/%k"
+KERNEL=="sd*", ACTION=="remove", SYBSYSTEM=="block",	RUN+="/bin/rmdir /mnt/%k"

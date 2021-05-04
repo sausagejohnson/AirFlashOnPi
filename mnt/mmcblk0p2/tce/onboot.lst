@@ -1,0 +1,10 @@
+firmware-rpi-wifi.tcz
+wifi.tcz
+openssh.tcz
+hostapd.tcz
+dnsmasq.tcz
+gmp.tcz
+nettle.tcz
+libattr.tcz
+p11-kit.tcz
+samba4.tcz
